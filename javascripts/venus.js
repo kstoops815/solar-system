@@ -2,7 +2,7 @@
 
 const outputToVenus = (domElement) => {
 	let domStringVenus = "";
-	domStringVenus += `<div>`;
+	domStringVenus += `<div class="col-md-3 planets">`;
 	domStringVenus += 	`<h3>Venus</h3>`;
 	domStringVenus += 		`<ul>`;
 	domStringVenus +=			`<li>Venus was discovered in 1610 by Galileo.</li>`;

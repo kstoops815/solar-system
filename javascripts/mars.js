@@ -2,7 +2,7 @@
 
 const outputToMars = (domElement) => {
 	let domStringMars = "";
-	domStringMars += `<div>`;
+	domStringMars += `<div class="col-md-3 planets">`;
 	domStringMars += 	`<h3>Mars</h3>`;
 	domStringMars += 	`<ul>`;
 	domStringMars +=		`<li>Mars was discovered in .</li>`;

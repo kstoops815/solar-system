@@ -2,7 +2,7 @@
 
 const outputToJupiter = (domElement) => {
 	let domStringJupiter = "";
-	domStringJupiter += `<div>`;
+	domStringJupiter += `<div class="col-md-3 planets">`;
 	domStringJupiter += 	`<h3>Jupiter</h3>`;
 	domStringJupiter += 	`<ul>`;
 	domStringJupiter +=			`<li>Jupiter was discovered in 1610 by Galileo.</li>`;

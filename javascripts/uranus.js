@@ -2,7 +2,7 @@
 
 const outputToUranus = (domElement) => {
 	let domStringUranus = "";
-	domStringUranus += `<div>`;
+	domStringUranus += `<div class="col-md-3 planets">`;
 	domStringUranus += 	`<h3>Uranus</h3>`;
 	domStringUranus += 		`<ul>`;
 	domStringUranus +=			`<li>Uranus was discovered in 1781 by William Herschel.</li>`;

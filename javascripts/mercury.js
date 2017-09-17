@@ -2,7 +2,7 @@
 
 const outputToMercury = (domElement) => {
 	let domStringMercury = "";
-	domStringMercury += `<div>`;
+	domStringMercury += `<div class="col-md-3 planets">`;
 	domStringMercury += 	`<h3>Mercury</h3>`;
 	domStringMercury += 	`<ul>`;
 	domStringMercury +=			`<li>Mercury's discovery date is unknown; however, the first mentions of the planet are believed to be around 3000 BC by the Sumerians.</li>`;
