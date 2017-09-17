@@ -1,21 +1,21 @@
 "use strict";
 
-const outputToJupiter = (domElement) => {
-	let domStringJupiter = "";
-	domStringJupiter += `<div>`;
-	domStringJupiter += 	`<h3>Jupiter</h3>`;
-	domStringJupiter += 	`<ul>`;
-	domStringJupiter +=			`<li>Jupiter was discovered in 1610 by Galileo.</li>`;
-	domStringJupiter += 		`<li>Jupiter's mass is 1,898 x10^24 kilograms (318 x Earth's mass).</li>`;
-	domStringJupiter +=			`<li>Jupiter's size is 142,800 km (88,736 miles) in diameter.</li>`;
-	domStringJupiter +=			`<li>Jupiter's maximum distance from the sun is 817 million km (508 million miles)</li>`;
-	domStringJupiter +=			`<li>Jupiter's atmosphere is made up of 90 percent hydrogen and nearly 10 percent helium. A very small fraction of the atmosphere is made up of compounds such as ammonia, sulfur, methane, and water vapor.</li>`;
-	domStringJupiter +=			`<li>Jupiter has 53 named moons and 16 unnamed moons, making for a total of 69 moons.</li>`;
-	domStringJupiter +=			`<li>Jupiter has been explored by Pioneer 10, Pioneer 11, Voyager 1, Voyager 2, Ulysses, Galileo Orbiter, Ulysses, and New Horizons.</li>`;
-	domStringJupiter += 	`</ul>`;
-	domStringJupiter += `</div>`;
+const outputToNeptune = (domElement) => {
+	let domStringNeptune = "";
+	domStringNeptune += `<div>`;
+	domStringNeptune += 	`<h3>Neptune</h3>`;
+	domStringNeptune += 	`<ul>`;
+	domStringNeptune +=			`<li>Neptune was discovered in 1846 by Johann Gottfried Galle.</li>`;
+	domStringNeptune += 		`<li>Neptune's mass is 1.024 × 10^26 kg.</li>`;
+	domStringNeptune +=			`<li>Neptune's size is 30,598 miles (49,244 km) in diameter.</li>`;
+	domStringNeptune +=			`<li>Neptune's average distance from the sun is 2,795,084,800 miles (4,498,252,900 km). </li>`;
+	domStringNeptune +=			`<li>Neptune's atmosphere is made up of is made up predominately of hydrogen and helium, with some methane.</li>`;
+	domStringNeptune +=			`<li>Neptune has 13 named moons.</li>`;
+	domStringNeptune +=			`<li>Neptune has been explored by Voyager 2, which flew by in 1989.</li>`;
+	domStringNeptune += 	`</ul>`;
+	domStringNeptune += `</div>`;
 
-	domElement.innerHTML += domStringJupiter;
+	domElement.innerHTML += domStringNeptune;
 };
 
-module.exports = outputToJupiter;
+module.exports = outputToNeptune;

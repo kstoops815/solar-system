@@ -1,21 +1,21 @@
 "use strict";
 
-const outputToJupiter = (domElement) => {
-	let domStringJupiter = "";
-	domStringJupiter += `<div>`;
-	domStringJupiter += 	`<h3>Jupiter</h3>`;
-	domStringJupiter += 	`<ul>`;
-	domStringJupiter +=			`<li>Jupiter was discovered in 1610 by Galileo.</li>`;
-	domStringJupiter += 		`<li>Jupiter's mass is 1,898 x10^24 kilograms (318 x Earth's mass).</li>`;
-	domStringJupiter +=			`<li>Jupiter's size is 142,800 km (88,736 miles) in diameter.</li>`;
-	domStringJupiter +=			`<li>Jupiter's maximum distance from the sun is 817 million km (508 million miles)</li>`;
-	domStringJupiter +=			`<li>Jupiter's atmosphere is made up of 90 percent hydrogen and nearly 10 percent helium. A very small fraction of the atmosphere is made up of compounds such as ammonia, sulfur, methane, and water vapor.</li>`;
-	domStringJupiter +=			`<li>Jupiter has 53 named moons and 16 unnamed moons, making for a total of 69 moons.</li>`;
-	domStringJupiter +=			`<li>Jupiter has been explored by Pioneer 10, Pioneer 11, Voyager 1, Voyager 2, Ulysses, Galileo Orbiter, Ulysses, and New Horizons.</li>`;
-	domStringJupiter += 	`</ul>`;
-	domStringJupiter += `</div>`;
+const outputToSaturn = (domElement) => {
+	let domStringSaturn = "";
+	domStringSaturn += `<div>`;
+	domStringSaturn += 		`<h3>Saturn</h3>`;
+	domStringSaturn += 		`<ul>`;
+	domStringSaturn +=			`<li>Saturn Saturn has been known since prehistoric times because it is easily visible to the naked eye.</li>`;
+	domStringSaturn += 			`<li>Saturn's mass is 5.683 × 10^26 kg.</li>`;
+	domStringSaturn +=			`<li>Saturn's size is 37,449 miles (60,268 km) in diameter.</li>`;
+	domStringSaturn +=			`<li>Saturn's average distance from the sun is 886 million miles (1.4 billion km).</li>`;
+	domStringSaturn +=			`<li>Saturn's atmosphere is made up of approximately 75% hydrogen and 25% helium with traces of other substances like methane and water ice. .</li>`;
+	domStringSaturn +=			`<li>Saturn has 53 confirmed moons and another 8 provisional moons.</li>`;
+	domStringSaturn +=			`<li>Saturn has been explored by Pioneer 11, Voyager 1, Voyager 2 as flybys. The Cassini spacecraft was launched in 1997, and was in orbit from 2004-2017..</li>`;
+	domStringSaturn += 		`</ul>`;
+	domStringSaturn += `</div>`;
 
-	domElement.innerHTML += domStringJupiter;
+	domElement.innerHTML += domStringSaturn;
 };
 
-module.exports = outputToJupiter;
+module.exports = outputToSaturn;
