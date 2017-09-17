@@ -2,7 +2,7 @@
 
 const outputToNeptune = (domElement) => {
 	let domStringNeptune = "";
-	domStringNeptune += `<div>`;
+	domStringNeptune += `<div class="col-md-3 planets">`;
 	domStringNeptune += 	`<h3>Neptune</h3>`;
 	domStringNeptune += 	`<ul>`;
 	domStringNeptune +=			`<li>Neptune was discovered in 1846 by Johann Gottfried Galle.</li>`;

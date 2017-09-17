@@ -2,7 +2,7 @@
 
 const outputToEarth = (domElement) => {
 	let domStringEarth = "";
-	domStringEarth += `<div>`;
+	domStringEarth += `<div class="col-md-3 planets">`;
 	domStringEarth += 	`<h3>Earth</h3>`;
 	domStringEarth += 	`<ul>`;
 	domStringEarth +=		`<li>Earth was discovered at the beginning of time.</li>`;
