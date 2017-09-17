@@ -28,3 +28,5 @@ function outputTo(domElement) {
   1. Satellites
   1. Name of any probes/orbiters/explorers that have visited or landed on that planet
   1. Create a main module that uses require to include each planet's module as a dependency and then subsequently calls the outputTo()      method for each one, in the right order.
+
+![solar system snip](./images/Browserify Solar System.PNG)
